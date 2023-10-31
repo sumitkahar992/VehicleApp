@@ -65,11 +65,16 @@ fun ReceiptListContent(modifier: Modifier) {
                 .height(160.dp)
                 .background(Color.White, RectangleShape)
         ) {
-            Image(
-                painter = painterResource(id = R.drawable.car),
-                contentDescription = "",
-                contentScale = ContentScale.Inside
-            )
+            Box(
+                modifier = Modifier.fillMaxSize(),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.car),
+                    contentDescription = "",
+                    contentScale = ContentScale.Inside
+                )
+            }
         }
 
         Spacer(modifier = Modifier.height(12.dp))
@@ -110,7 +115,7 @@ fun ReceiptListContent(modifier: Modifier) {
                 onClick = {
 
                 }) {
-                Text(text = "PRINT", fontSize = 24.sp)
+                Text(text = "PRINT", fontSize = 20.sp)
             }
 
             Button(
@@ -119,7 +124,7 @@ fun ReceiptListContent(modifier: Modifier) {
                 onClick = {
 
                 }) {
-                Text(text = "ADD ", fontSize = 24.sp)
+                Text(text = "ADD ", fontSize = 20.sp)
             }
 
             Button(
@@ -128,7 +133,7 @@ fun ReceiptListContent(modifier: Modifier) {
                 onClick = {
 
                 }) {
-                Text(text = "BACK", fontSize = 24.sp)
+                Text(text = "BACK", fontSize = 20.sp)
             }
         }
 
@@ -150,6 +155,6 @@ fun TextComponents(left: String, right: String) {
 
 @Preview(showBackground = true)
 @Composable
-fun Prevdffd() {
+fun ReceiptScreenPreview() {
     ReceiptScreen(navController = rememberNavController())
 }
