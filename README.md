@@ -1,4 +1,4 @@
-# Food-Maniac
+# Vehicle-App
 
 Vehicle App is a simple application to demonstrate the use of Clean Architecture, MVVM,
 Multi-Module, build with Jetpack Compose and Material-3 guidelines along with some Modern Android
@@ -63,8 +63,9 @@ development tools.
 
 # Screenshots
 
-<img src="config/assets/login.png" width="250" /> <img src="config/assets/addvehicle.png" width="250" /> <img src="config/assets/bookinglist.png" width="250" /> <img src="config/assets/userreceipt.png" width="250" />
+<img src="config/assets/login.png" width="250" /> <img src="config/assets/addvehicle.png" width="250" /> <img src="config/assets/bookinglist.png" width="250" />
 ---
+<img src="config/assets/userreceipt.png" width="250" />
 ---
 
 
